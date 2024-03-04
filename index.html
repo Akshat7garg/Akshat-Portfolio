@@ -9,85 +9,94 @@
 </head>
 <body>
 
-    <!-- for the loader of the webpage -->
-    <div class="intro">
-        <div class="name">
-            AKSHAT GARG
-        </div>
-        <div class="description">
-            Website, Andriod and Game Developer
-        </div>
-    </div>
-
-    <!-- for the main user interface of the webpage -->
+    <!-- for the loader or the starter of the webpage -->
+    
+    <!-- for the main user interface of the webpage appears after the loader -->
     <div class="main-body">
 
         <!-- for the header of the webpage -->
         <div class="header">
-            <div class="logo">
+            <div class="page-name">
                 <p>PORTFOLIO</p>
             </div>
 
-            <!-- for the setting button of the page -->
+            <!-- for the setting option for the page -->
             <div class="setting">
-                <input type="checkbox" name="setting-droping" id="drop">
-                <label for="drop" id="setting">
-                    <i class="fa-solid fa-screwdriver-wrench"></i>
-                    <p>Setting</p>
-                    <i class="fa-solid fa-angle-down"></i>
-                </label>
+                <input type="checkbox" name="set-drop" id="set">
+                <div class="set-link">
+                    <label for="set">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <p>Settings</p>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </label>
+                </div>
 
-                <!-- for the theme and mode section -->
+                <!-- for the available area where setting option can apply for -->
                 <div class="setting-box">
                     <div class="mode">
-                        <input type="checkbox" name="day-night" id="shift">
-                        <label for="shift" id="mode-icon">
-                            <i class="fa-solid"></i>
+                        <input type="checkbox" name="mode-shift" id="shift">
+                        <label for="shift">
+                            <i class="fa-solid fa-moon"></i>
                         </label>
                     </div>
                     <div class="theme">
                         <p>Theme</p>
-                        
+                        <div class="colors">
+                            <button></button>
+                            <button></button>
+                            <button></button>
+                            <button></button>
+                            <button></button>
+                            <button></button>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- for the options section of the page -->
+            <!-- for the options section of the header where all the links of the page available -->
             <div class="options">
-                <input type="checkbox" name="droping" id="menu">
-                <label for="menu" id="hamburger">
+                <input type="checkbox" name="opt-drop" id="opt">
+                <label for="opt" id="hamburger">
                     <span></span>
                     <span></span>
                     <span></span>
                 </label>
 
-                <!-- for the options list -->
-                <div class="option-list">
-                    <label for="page1">
-                        <i class="fa-solid fa-house-chimney"></i>
-                        Home
-                    </label>
-                    <label for="page2">
-                        <i class="fa-solid fa-award"></i>
-                        Skills
-                    </label>
-                    <label for="page3">
-                        <i class="fa-solid fa-graduation-cap"></i>
-                        Qualifications
-                    </label>
-                    <label for="page4">
-                        <i class="fa-solid fa-briefcase"></i>
-                        Projects
-                    </label>
-                    <label for="page5">
-                        <i class="fa-solid fa-comments"></i>
-                        Contact Me
-                    </label>
+                <!-- for the links section of the header -->
+                <div class="option-box">
+                    <div class="opt-link active">
+                        <label for="page1">
+                            <i class="fa-solid fa-house-chimney"></i>
+                            <p>Home</p>
+                        </label>
+                    </div>
+                    <div class="opt-link">
+                        <label for="page2">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <p>Qualifications</p>
+                        </label>
+                    </div>
+                    <div class="opt-link">
+                        <label for="page3">
+                            <i class="fa-solid fa-award"></i>
+                            <p>Skills</p>
+                        </label>
+                    </div>
+                    <div class="opt-link">
+                        <label for="page4">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <p>Projects</p>
+                        </label>
+                    </div>
+                    <div class="opt-link">
+                        <label for="page5">
+                            <i class="fa-solid fa-comments"></i>
+                            <p>Contact Me</p>
+                        </label>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
 </html>
-<!-- fa-moon
-fa-sun -->
